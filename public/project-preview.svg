@@ -1,0 +1,52 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090E17"/>
+      <stop offset="1" stop-color="#121A2B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="400" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1B2434"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF5B5B"/>
+      <stop offset="1" stop-color="#FF3B3B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.2">
+    <circle cx="200" cy="180" r="210" fill="#1E3A8A"/>
+    <circle cx="1120" cy="660" r="240" fill="#0F766E"/>
+    <circle cx="1300" cy="180" r="180" fill="#7C3AED"/>
+  </g>
+
+  <rect x="430" y="80" width="540" height="720" rx="34" fill="url(#card)" stroke="#3B485E"/>
+  <rect x="480" y="120" width="440" height="60" rx="18" fill="#1B2434" stroke="#4A5E7A"/>
+  <text x="700" y="160" text-anchor="middle" fill="#F3F4F6" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Random Meme Generator</text>
+
+  <text x="700" y="260" text-anchor="middle" fill="#E5E7EB" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700">Lisa Simpson Help GIF by</text>
+  <text x="700" y="305" text-anchor="middle" fill="#E5E7EB" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700">The Simpsons</text>
+
+  <g>
+    <rect x="545" y="340" width="310" height="260" rx="18" fill="#394B5F" stroke="#566A84"/>
+    <rect x="560" y="355" width="280" height="230" rx="12" fill="#E0E7FF"/>
+    <circle cx="610" cy="420" r="44" fill="#F6D765"/>
+    <circle cx="740" cy="420" r="44" fill="#F6D765"/>
+    <circle cx="620" cy="390" r="10" fill="#0F172A"/>
+    <circle cx="730" cy="390" r="10" fill="#0F172A"/>
+    <rect x="635" y="438" width="75" height="14" rx="7" fill="#0F172A"/>
+    <path d="M675 448 C685 465, 705 470, 720 468" stroke="#0F172A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M600 520 C645 492, 690 492, 740 520" stroke="#0F172A" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M610 455 L580 535" stroke="#F6D765" stroke-width="18" stroke-linecap="round"/>
+    <path d="M740 455 L770 535" stroke="#F6D765" stroke-width="18" stroke-linecap="round"/>
+    <text x="700" y="560" text-anchor="middle" fill="#111827" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">YEAH, DO THAT!</text>
+    <text x="700" y="585" text-anchor="middle" fill="#111827" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">SOMEBODY HELP HIM!</text>
+  </g>
+
+  <rect x="520" y="640" width="360" height="90" rx="20" fill="url(#button)"/>
+  <text x="700" y="697" text-anchor="middle" fill="white" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">Click for meme</text>
+
+  <rect x="485" y="760" width="430" height="28" rx="14" fill="#1B2434" stroke="#4A5E7A"/>
+</svg>
