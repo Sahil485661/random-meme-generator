@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://randommeme-generator.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20App-2ea043?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/Live%20Demo-Open%20App-2ea043?style=for-the-badge&logo=vercel" alt="Live Demo" />
   </a>
 </p>
 
@@ -13,29 +13,33 @@
   <img src="https://img.shields.io/badge/API-Giphy-FF4C4C?style=flat-square" alt="Giphy API" />
 </p>
 
-A modern, fun, and responsive meme generator built with React and Vite. It delivers random meme content instantly and allows users to search for memes by keyword, making it a perfect example of a lightweight, interactive frontend app with real API integration.
+<p align="center">
+  <img src="./public/project-preview.svg" alt="Random Meme Generator screenshot" width="1000" />
+</p>
+
+A fun and modern meme generator built with React and Vite that fetches meme content from the Giphy API. The app lets users generate random memes with a single click and also search for memes by keyword, creating a clean and memorable user experience with responsive styling.
 
 ## Live Demo
 
-Explore the app here: https://randommeme-generator.vercel.app/
+See it in action here: https://randommeme-generator.vercel.app/
 
 ## Why this project stands out
 
-- Built with a clean and engaging UI
-- Fetches meme content dynamically from Giphy API
-- Generates random memes with a single click
-- Lets users search memes by topic or keyword
-- Responsive design for desktop and mobile experiences
-- Simple, maintainable React architecture
+- Clean and modern UI design
+- Real API integration with Giphy
+- Random meme generation in one click
+- Search functionality for custom meme discovery
+- Responsive layout for desktop and mobile users
+- Strong demonstration of frontend interaction and state management
 
 ## Features
 
 - Random meme generation
-- Search memes by keyword
-- Dynamic API-based content loading
-- Loading and error states for a smoother user experience
-- Clean card-based layout with responsive styling
-- Lightweight front-end experience powered by React + Vite
+- Meme search by keyword
+- Loading and error handling
+- Responsive card-based layout
+- Real-time API-driven content updates
+- lightweight and fast React app experience
 
 ## Tech Stack
 
@@ -45,25 +49,19 @@ Explore the app here: https://randommeme-generator.vercel.app/
 - Tailwind CSS
 - Giphy API
 
-## Project Structure
+## How it works
 
-```bash
-random-meme-generator/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Random.jsx
-│   │   └── SearchMeme.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-├── index.html
-├── README.md
-└── .gitignore
-```
+1. User clicks the “Click for meme” button.
+2. The app calls the Giphy API for a random meme.
+3. The meme is displayed with a title and image.
+4. The search field allows users to find memes by topic or keyword.
+5. The UI updates instantly based on the fetched results.
+
+## Screenshots
+
+<div align="center">
+  <img src="./public/project-preview.svg" alt="Project screenshot" width="900" />
+</div>
 
 ## Getting Started
 
@@ -80,15 +78,15 @@ cd random-meme-generator
 npm install
 ```
 
-### 3. Set up environment variables
+### 3. Add your environment variable
 
-This project uses the Giphy API, so you need to add your API key in a `.env` file.
+Create a `.env` file in the root directory and add your Giphy API key:
 
 ```bash
 VITE_API_KEY=your_giphy_api_key_here
 ```
 
-### 4. Run the app locally
+### 4. Run the app
 
 ```bash
 npm run dev
@@ -100,35 +98,41 @@ Then open the local URL shown in the terminal, usually:
 http://localhost:5173
 ```
 
-## Screenshots
+## Project Structure
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sahil485661/random-meme-generator/main/public/placeholder.png" alt="App screenshot" width="900" />
-</p>
-
-> If you want, I can also replace the placeholder image with a real project screenshot once you add one to the repository.
+```bash
+random-meme-generator/
+├── public/
+│   └── project-preview.svg
+├── src/
+│   ├── components/
+│   │   ├── Random.jsx
+│   │   └── SearchMeme.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+├── index.html
+├── README.md
+├── .gitignore
+└── .env.example
+```
 
 ## Future Enhancements
 
-- Add category-based meme filters
-- Implement favorite memes feature
-- Add dark mode toggle
-- Improve visual polish and animations
-- Add a meme share button
+- Add meme categories or tags
+- Save favorite memes
+- Add share / download options
+- Improve animation and transitions
+- Add a dark mode toggle
 
 ## Connect with the creator
 
 - GitHub: https://github.com/Sahil485661
-- Portfolio / Demo: https://randommeme-generator.vercel.app/
+- Live Demo: https://randommeme-generator.vercel.app/
 
 ## Summary
 
-This project demonstrates front-end development skills in React, API integration, UI/UX design, and responsive web application development. It is a strong example of a small but polished interactive app that can impress recruiters by showcasing creativity, usability, and practical implementation.
-
-If you’d like, I can also create a more premium version of this README with:
-
-- a professional project badge section
-- a feature GIF or demo preview section
-- a stronger recruiter-focused summary
-- a table-based tech stack section
-- a polished project showcase layout
+This project is a strong example of frontend development, API integration, and responsive UI design. It demonstrates practical React skills in a fun, portfolio-friendly project that is easy to understand and visually engaging for recruiters and collaborators.
